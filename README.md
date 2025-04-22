@@ -11,7 +11,7 @@
 
 ## 🔧 Features
 
-- Users have one Role (1-to-1)
+- Users have one Role 
 - Roles have many Permissions (many-to-many)
 - Permissions are dynamically resolved using custom policies
 - Secure endpoints using `[HasPermission("PermissionName")]` attribute
